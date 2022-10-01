@@ -39,7 +39,7 @@ purchaseAmount=np.random.normal(50,10,1000)*pageSpeeds
 plt.scatter(pageSpeeds,purchaseAmount)
 print(covariance(pageSpeeds,purchaseAmount))
 print (correlation(pageSpeeds,purchaseAmount))
-print(np.corrcoef(pageSpeeds,purchaseAmount))
+print(np.corrcoef(pageSpeeds,purchaseAmount)[0][1])
 # %%
 
 print (correlation(pageSpeeds,purchaseAmount))
